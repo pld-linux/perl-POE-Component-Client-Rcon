@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	POE
-%define	pnam	Component-Client-Rcon
+%define		pdir	POE
+%define		pnam	Component-Client-Rcon
 Summary:	POE::Component::Client::Rcon - implementation of the Rcon remote console protocol
 Summary(pl):	POE::Component::Client::Rcon - implementacja protoko³u zdalnej konsoli Rcon
 Name:		perl-POE-Component-Client-Rcon
