@@ -6,7 +6,7 @@
 %define		pdir	POE
 %define		pnam	Component-Client-Rcon
 Summary:	POE::Component::Client::Rcon - implementation of the Rcon remote console protocol
-Summary(pl):	POE::Component::Client::Rcon - implementacja protoko³u zdalnej konsoli Rcon
+Summary(pl.UTF-8):   POE::Component::Client::Rcon - implementacja protokoÅ‚u zdalnej konsoli Rcon
 Name:		perl-POE-Component-Client-Rcon
 Version:	0.23
 Release:	2
@@ -30,11 +30,11 @@ and RTCW (Return to Castle Wolfenstein) servers. It is capable of
 handling multiple Rcon requests simultaneously, even multiple requests
 to the same IP/Port simultaneously.
 
-%description -l pl
-POE::Component::Client::RCon to implementacja protoko³u Rcon -
-powszechnie u¿ywanego do zdalnego administrowania serwerami Half-Life,
-Quake'a czy RTCW (Return to Castle Wolfenstein). Umo¿liwia jednoczesn±
-obs³ugê wielu ¿±dañ RCon, a nawet jednoczesne ¿±dania do tego samego
+%description -l pl.UTF-8
+POE::Component::Client::RCon to implementacja protokoÅ‚u Rcon -
+powszechnie uÅ¼ywanego do zdalnego administrowania serwerami Half-Life,
+Quake'a czy RTCW (Return to Castle Wolfenstein). UmoÅ¼liwia jednoczesnÄ…
+obsÅ‚ugÄ™ wielu Å¼Ä…daÅ„ RCon, a nawet jednoczesne Å¼Ä…dania do tego samego
 IP/portu.
 
 %prep
