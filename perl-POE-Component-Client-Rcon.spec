@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	POE
 %define		pnam	Component-Client-Rcon
+%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Component::Client::Rcon - implementation of the Rcon remote console protocol
 Summary(pl.UTF-8):	POE::Component::Client::Rcon - implementacja protokołu zdalnej konsoli Rcon
 Name:		perl-POE-Component-Client-Rcon
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ebff9d4943f80cbd147e37d4dbf7a35a
+URL:		http://search.cpan.org/dist/POE-Component-Client-Rcon/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
