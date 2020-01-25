@@ -4,7 +4,6 @@
 
 %define		pdir	POE
 %define		pnam	Component-Client-Rcon
-%include	/usr/lib/rpm/macros.perl
 Summary:	POE::Component::Client::Rcon - implementation of the Rcon remote console protocol
 Summary(pl.UTF-8):	POE::Component::Client::Rcon - implementacja protokołu zdalnej konsoli Rcon
 Name:		perl-POE-Component-Client-Rcon
