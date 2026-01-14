@@ -8,7 +8,7 @@ Summary:	POE::Component::Client::Rcon - implementation of the Rcon remote consol
 Summary(pl.UTF-8):	POE::Component::Client::Rcon - implementacja protokołu zdalnej konsoli Rcon
 Name:		perl-POE-Component-Client-Rcon
 Version:	0.23
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
